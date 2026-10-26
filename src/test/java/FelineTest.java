@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 
 
-public class FelineTests {
+public class FelineTest {
 
     @Test
     void eatMeatReturnsPredatorFood() throws Exception {

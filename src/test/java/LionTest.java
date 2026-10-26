@@ -13,7 +13,7 @@ import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 
-public class LionTests {
+public class LionTest {
 
     @Mock
     Feline feline;
