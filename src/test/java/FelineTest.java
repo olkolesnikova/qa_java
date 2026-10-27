@@ -45,12 +45,6 @@ public class FelineTest {
     }
 
     @Test
-    void getFoodEmptyList() {
-        Feline feline = new Feline();
-        assertEquals(List.of(), feline.getFood());
-    }
-
-    @Test
     void getKittensWithoutParamReturnsExpected() {
         Feline feline = new Feline();
         assertEquals(1, feline.getKittens());
